@@ -1,0 +1,54 @@
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.Properties.Resources.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.csproj.GenerateResource.Cache
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\bin\Debug\CardMaker.exe
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\bin\Debug\CardMaker.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.exe
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.csprojResolveAssemblyReference.cache
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.CardMakerWindow.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.BrowserWindow.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.PowerCtrl.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ElementCtrl.resources
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.exe
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.pdb
+D:\Vault\RP\4e\CardMaker\CardMaker\bin\Debug\CardMaker.exe
+D:\Vault\RP\4e\CardMaker\CardMaker\bin\Debug\CardMaker.pdb
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.csprojResolveAssemblyReference.cache
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.BrowserWindow.resources
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.CardMakerWindow.resources
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ElementCtrl.resources
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.PowerCtrl.resources
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.Properties.Resources.resources
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.csproj.GenerateResource.Cache
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ItemCtrl.resources
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ItemVersionCtrl.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ItemCtrl.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ItemVersionCtrl.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ClassCtrl.resources
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ClassCtrl.resources
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.FeatureCtrl.resources
+D:\Vault\RP\4e\CardMaker\CardMaker\obj\x86\Debug\CardMaker.AttackCtrl.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.AttackCtrl.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.FeatureCtrl.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.AuraCtrl.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.MinionPowerCtrl.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.MonsterCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.exe
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\bin\Debug\CardMaker.exe
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\bin\Debug\CardMaker.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.csprojResolveAssemblyReference.cache
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.AttackCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.AuraCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.BrowserWindow.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.CardMakerWindow.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ClassCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ElementCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.FeatureCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ItemCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.ItemVersionCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.MinionPowerCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.MonsterCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.PowerCtrl.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.Properties.Resources.resources
+\\ict.ru.ac.za\DFS\UGHomes\g12l4025\Desktop\CardMaker\CardMaker\obj\x86\Debug\CardMaker.csproj.GenerateResource.Cache

@@ -1,0 +1,32 @@
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\bin\Debug\CardMakerWPF.exe
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\bin\Debug\CardMakerWPF.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\bin\Debug\CardMakerBackendLibrary.dll
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\bin\Debug\CardMakerBackendLibrary.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.csprojResolveAssemblyReference.cache
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\obj\x86\Debug\App.g.cs
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF_MarkupCompile.cache
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.g.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.Properties.Resources.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.csproj.GenerateResource.Cache
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.exe
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.exe
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.csprojResolveAssemblyReference.cache
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\BrowserWindow.baml
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\MainWindow.baml
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\BrowserWindow.g.cs
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\App.g.cs
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF_MarkupCompile.cache
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.g.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.Properties.Resources.resources
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\obj\x86\Debug\CardMakerWPF.csproj.GenerateResource.Cache
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\bin\Debug\CardMakerWPF.exe
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\bin\Debug\CardMakerWPF.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\bin\Debug\Antlr4.StringTemplate.dll
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\bin\Debug\CardMakerBackendLibrary.dll
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\bin\Debug\CardMakerBackendLibrary.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerWPF\bin\Debug\Antlr4.StringTemplate.pdb

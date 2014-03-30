@@ -1,0 +1,5 @@
+sliders for numeric data, or scrollboxen
+what's modifiers??  text data?
+
+
+Yusuf: should i make a wizard? and how would i go about making a wizard look pretty?

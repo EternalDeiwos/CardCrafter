@@ -1,0 +1,12 @@
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerBackendLibrary\bin\Debug\CardMakerBackendLibrary.dll
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerBackendLibrary\bin\Debug\CardMakerBackendLibrary.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerBackendLibrary\obj\Debug\CardMakerBackendLibrary.dll
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerBackendLibrary\obj\Debug\CardMakerBackendLibrary.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMakerWPF\CardMakerBackendLibrary\obj\Debug\CardMakerBackendLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\obj\Debug\CardMakerBackendLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\obj\Debug\CardMakerBackendLibrary.dll
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\bin\Debug\CardMakerBackendLibrary.dll
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\bin\Debug\CardMakerBackendLibrary.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\bin\Debug\Antlr4.StringTemplate.dll
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\bin\Debug\Antlr4.StringTemplate.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\obj\Debug\CardMakerBackendLibrary.pdb

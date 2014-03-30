@@ -1,0 +1,7 @@
+\\ict.ru.ac.za\dfs\ughomes\g12l4025\my documents\visual studio 2010\Projects\CardMaker\CardMaker\bin\Debug\CardMaker.exe
+\\ict.ru.ac.za\dfs\ughomes\g12l4025\my documents\visual studio 2010\Projects\CardMaker\CardMaker\bin\Debug\CardMaker.pdb
+\\ict.ru.ac.za\dfs\ughomes\g12l4025\my documents\visual studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.CardMaker.resources
+\\ict.ru.ac.za\dfs\ughomes\g12l4025\my documents\visual studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.Properties.Resources.resources
+\\ict.ru.ac.za\dfs\ughomes\g12l4025\my documents\visual studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.csproj.GenerateResource.Cache
+\\ict.ru.ac.za\dfs\ughomes\g12l4025\my documents\visual studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.exe
+\\ict.ru.ac.za\dfs\ughomes\g12l4025\my documents\visual studio 2010\Projects\CardMaker\CardMaker\obj\x86\Debug\CardMaker.pdb

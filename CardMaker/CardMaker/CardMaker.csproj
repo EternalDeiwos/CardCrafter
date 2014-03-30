@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4C08145E-C6E0-4A60-8AAC-734D9F6725C2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CardMaker</RootNamespace>
+    <AssemblyName>CardMaker</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttackCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AttackCtrl.designer.cs">
+      <DependentUpon>AttackCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AtWill.cs" />
+    <Compile Include="AuraCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AuraCtrl.Designer.cs">
+      <DependentUpon>AuraCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrowserWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrowserWindow.Designer.cs">
+      <DependentUpon>BrowserWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardBrowser.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CardMakerWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardMakerWindow.Designer.cs">
+      <DependentUpon>CardMakerWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class.cs" />
+    <Compile Include="ClassCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ClassCtrl.designer.cs">
+      <DependentUpon>ClassCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Daily.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="ElementCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ElementCtrl.designer.cs">
+      <DependentUpon>ElementCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encounter.cs" />
+    <Compile Include="FeatureCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FeatureCtrl.designer.cs">
+      <DependentUpon>FeatureCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HTMLWriteable.cs" />
+    <Compile Include="Item.cs" />
+    <Compile Include="ItemCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ItemCtrl.designer.cs">
+      <DependentUpon>ItemCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemVersionCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ItemVersionCtrl.designer.cs">
+      <DependentUpon>ItemVersionCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MinionPowerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MinionPowerCtrl.Designer.cs">
+      <DependentUpon>MinionPowerCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monster.cs" />
+    <Compile Include="MonsterCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MonsterCtrl.designer.cs">
+      <DependentUpon>MonsterCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Power.cs" />
+    <Compile Include="PowerCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PowerCtrl.Designer.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReturnsData.cs" />
+    <EmbeddedResource Include="AttackCtrl.resx">
+      <DependentUpon>AttackCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuraCtrl.resx">
+      <DependentUpon>AuraCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrowserWindow.resx">
+      <DependentUpon>BrowserWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardMakerWindow.resx">
+      <DependentUpon>CardMakerWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClassCtrl.resx">
+      <DependentUpon>ClassCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ElementCtrl.resx">
+      <DependentUpon>ElementCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeatureCtrl.resx">
+      <DependentUpon>FeatureCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemCtrl.resx">
+      <DependentUpon>ItemCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemVersionCtrl.resx">
+      <DependentUpon>ItemVersionCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MinionPowerCtrl.resx">
+      <DependentUpon>MinionPowerCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonsterCtrl.resx">
+      <DependentUpon>MonsterCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerCtrl.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
