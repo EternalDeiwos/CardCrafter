@@ -4,3 +4,4 @@ C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\Ca
 C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\bin\Release\Antlr4.StringTemplate.pdb
 C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\obj\Release\CardMakerBackendLibrary.dll
 C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\obj\Release\CardMakerBackendLibrary.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMakerWPF\CardMakerBackendLibrary\obj\Release\CardMakerBackendLibrary.csprojResolveAssemblyReference.cache

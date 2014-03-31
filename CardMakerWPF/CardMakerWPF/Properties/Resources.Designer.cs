@@ -8,10 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CardMakerWPF.Properties
-{
-
-
+namespace CardMakerWPF.Properties {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -22,49 +22,203 @@ namespace CardMakerWPF.Properties
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources
-    {
-
+    internal class Resources {
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources()
-        {
+        internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager
-        {
-            get
-            {
-                if ((resourceMan == null))
-                {
+        internal static global::System.Resources.ResourceManager ResourceManager {
+            get {
+                if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("CardMakerWPF.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture
-        {
-            get
-            {
+        internal static global::System.Globalization.CultureInfo Culture {
+            get {
                 return resourceCulture;
             }
-            set
-            {
+            set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap area {
+            get {
+                object obj = ResourceManager.GetObject("area", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bg_350 {
+            get {
+                object obj = ResourceManager.GetObject("bg_350", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon CardCrafterIcon {
+            get {
+                object obj = ResourceManager.GetObject("CardCrafterIcon", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap close {
+            get {
+                object obj = ResourceManager.GetObject("close", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;div style=&quot;padding:0px 0px 0px $indent$px;background-image:$shading$;&quot;&gt;
+        ///		&lt;span style=&quot;font-weight:bold;&quot;&gt;$type$&lt;/span&gt;
+        ///		$text$
+        ///&lt;/div&gt;.
+        /// </summary>
+        internal static string ElementTemplate {
+            get {
+                return ResourceManager.GetString("ElementTemplate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap melee {
+            get {
+                object obj = ResourceManager.GetObject("melee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap melee_basic {
+            get {
+                object obj = ResourceManager.GetObject("melee_basic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;div class=&quot;main&quot;&gt;
+        ///	&lt;!--insert html exports here, one after another--&gt;
+        ///&lt;/div&gt;
+        ///&lt;style&gt;
+        ///.main{
+        ///	float:left;
+        ///	width:350px;
+        ///	}
+        ///&lt;/style&gt;
+        ///.
+        /// </summary>
+        internal static string OneBarCardTemplate {
+            get {
+                return ResourceManager.GetString("OneBarCardTemplate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap passive {
+            get {
+                object obj = ResourceManager.GetObject("passive", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;div style=&quot;font-family:arial;font-size:8pt;width:350px;line-height:10.5pt;&quot;&gt;
+        ///	&lt;div style=&quot;background-color:$colour$;color:#FFFFFF;padding:1px 5px 0px 5px;width:340px;height:16px;&quot;&gt;
+        ///		&lt;div style=&quot;font-weight:bold;float:left;&quot;&gt;$name$&lt;/div&gt;
+        ///		&lt;div style=&quot;float:right;&quot;&gt;$level$&lt;/div&gt;
+        ///	&lt;/div&gt;
+        ///	&lt;div style=&quot;background-color:#DDDDCC;background-image:url(&apos;$background_image$&apos;);font-style:italic;padding: 1px 0px 3px 5px;&quot;&gt;$flavour_text$&lt;/div&gt;
+        ///	&lt;div style=&quot;padding-left:5px;&quot;&gt;
+        ///		&lt;span style=&quot;font-weight:bold;&quot;&gt;$u [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string PowerTemplate {
+            get {
+                return ResourceManager.GetString("PowerTemplate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ranged {
+            get {
+                object obj = ResourceManager.GetObject("ranged", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ranged_basic {
+            get {
+                object obj = ResourceManager.GetObject("ranged_basic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;div class=&quot;main&quot;&gt;
+        ///	&lt;!--insert html exports here, one after another--&gt;
+        ///&lt;/div&gt;
+        ///&lt;div class=&quot;sidebar&quot;&gt;
+        ///	&lt;!--insert html exports here, one after another--&gt;
+        ///&lt;/div&gt;
+        ///&lt;style&gt;
+        ///.main{
+        ///	float:left;
+        ///	width:350px;
+        ///	}
+        ///.sidebar{
+        ///	position:absolute;
+        ///	left:370px;
+        ///	width:350px;
+        ///	}
+        ///&lt;/style&gt;
+        ///.
+        /// </summary>
+        internal static string TwoBarCardTemplate {
+            get {
+                return ResourceManager.GetString("TwoBarCardTemplate", resourceCulture);
             }
         }
     }

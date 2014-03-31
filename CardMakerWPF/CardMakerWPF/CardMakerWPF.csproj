@@ -41,6 +41,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -73,6 +74,7 @@
     <Compile Include="BrowserWindow.xaml.cs">
       <DependentUpon>BrowserWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Card.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -94,14 +96,24 @@
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+    <Resource Include="Resources\CardTemplates\ElementTemplate.st">
+      <SubType>Designer</SubType>
+    </Resource>
+    <Resource Include="Resources\CardTemplates\OneBarCardTemplate.st" />
+    <Resource Include="Resources\CardTemplates\PowerTemplate.st">
+      <SubType>Designer</SubType>
+    </Resource>
+    <Resource Include="Resources\CardTemplates\TwoBarCardTemplate.st" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CardMakerBackendLibrary\CardMakerBackendLibrary.csproj">
@@ -110,12 +122,31 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\bg_350.jpg">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
+    <Resource Include="Resources\Icons\CardCrafterIcon.ico" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="CardTemplates\" />
+    <Resource Include="Resources\Images\area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\bg_350.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\melee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\melee-basic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\passive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\ranged.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Images\ranged-basic.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
