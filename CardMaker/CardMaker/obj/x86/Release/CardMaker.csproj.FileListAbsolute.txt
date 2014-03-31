@@ -16,3 +16,5 @@ C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\
 C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Release\CardMaker.csproj.GenerateResource.Cache
 C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Release\CardMaker.exe
 C:\Users\Styx\Documents\Visual Studio 2010\Projects\CardMaker\CardMaker\obj\x86\Release\CardMaker.pdb
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMaker\CardMaker\obj\x86\Release\CardMaker.exe
+C:\Users\Styx\Documents\Visual Studio 2010\Projects\Card Crafter\CardMaker\CardMaker\obj\x86\Release\CardMaker.pdb

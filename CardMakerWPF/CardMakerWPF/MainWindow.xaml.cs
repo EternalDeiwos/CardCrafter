@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using CardMakerBackend.CardTypes;
 
 namespace CardMakerWPF
 {
@@ -22,6 +23,8 @@ namespace CardMakerWPF
         public MainWindow()
         {
             InitializeComponent();
+            Card c = new Card(Power.GetDemo());
+            //tempTextBox.Text = c.ToString();
         }
     }
 }

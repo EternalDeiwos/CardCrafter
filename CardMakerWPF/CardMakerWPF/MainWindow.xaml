@@ -1,10 +1,11 @@
 ﻿<Window x:Class="CardMakerWPF.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Card Crafter" DataContext="{Binding}" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="600" Width="822" Name="CardMaker" WindowState="Maximized" BorderBrush="{x:Null}" FontFamily="Segoe UI">
+        Title="Card Crafter" DataContext="{Binding}" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="600" Width="822" Name="CardMaker" WindowState="Maximized" FontFamily="Segoe UI" Icon="/CardMakerWPF;component/Resources/Icons/CardCrafterIcon.ico">
     <Grid Name="mainGrid">
+        <TextBox Height="561" HorizontalAlignment="Left" Name="tempTextBox" VerticalAlignment="Top" Width="800" Margin="1,0,0,0" VerticalScrollBarVisibility="Auto" MinLines="1" />
     </Grid>
     <Window.Background>
-        <ImageBrush ImageSource="/CardMakerWPF;component/Images/bg_350.jpg" />
+        <ImageBrush ImageSource="/CardMakerWPF;component/Resources/Images/bg_350.jpg" />
     </Window.Background>
 </Window>
