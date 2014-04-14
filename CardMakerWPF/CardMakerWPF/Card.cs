@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using Antlr4.StringTemplate;
 using CardMakerBackend.CardTypes;
+using System.Windows;
+using Antlr4.StringTemplate.Debug;
+using CardMakerWPF.Templating;
 
 namespace CardMakerWPF
 {
@@ -13,110 +16,12 @@ namespace CardMakerWPF
 
         public Card(Power p)
         {
-            Template power_template = new Template(Properties.Resources.PowerTemplate);
+            StringTemplate template = new StringTemplate(Properties.Resources.PowerTemplate);
+            template.AddAttribute("Name", p.Name);
+            template.AddAttribute("Level", p.Level);
+            template.AddAttribute("FlavourText", p.FlavourText);
 
-            switch (p.Usage)
-            {
-                case Power.SpellUsage.AtWill:
-                    power_template.Add("Colour", "#407040");
-                    power_template.Add("Usage", "At Will");
-                    break;
-                case Power.SpellUsage.Encounter:
-                    power_template.Add("Colour", "#704040");
-                    power_template.Add("Usage", "Encounter");
-                    break;
-                case Power.SpellUsage.Daily:
-                    power_template.Add("Colour", "#404040");
-                    power_template.Add("Usage", "Daily");
-                    break;
-            }
-
-            power_template.Add("Name", p.Name);
-            power_template.Add("Level", p.Level);
-            power_template.Add("BackgroundImage", @"/Resources/Images/bg_350.jpg");
-            power_template.Add("FlavourText", p.FlavourText);
-
-            switch (p.Action)
-            {
-                case ActionType.Standard:
-                    power_template.Add("Action", "Standard Action");
-                    break;
-                case ActionType.Reaction:
-                    power_template.Add("Action", "Immeidiate Reaction");
-                    break;
-                case ActionType.None:
-                    power_template.Add("Action", "No Action");
-                    break;
-                case ActionType.Move:
-                    power_template.Add("Action", "Movement Action");
-                    break;
-                case ActionType.Minor:
-                    power_template.Add("Action", "Minor Action");
-                    break;
-                case ActionType.Interrupt:
-                    power_template.Add("Action", "Immediate Interrupt");
-                    break;
-                case ActionType.Free:
-                    power_template.Add("Action", "Free Action");
-                    break;
-            }
-
-            switch (p.Attack)
-            {
-                case AttackType.Melee:
-                    power_template.Add("Attack", "Melee");
-                    break;
-                case AttackType.Personal:
-                    power_template.Add("Attack", "Personal");
-                    break;
-                case AttackType.Ranged:
-                    power_template.Add("Attack", "Ranged");
-                    break;
-                case AttackType.Close_Burst:
-                    power_template.Add("Attack", "Close Burst");
-                    break;
-                case AttackType.Close_Blast:
-                    power_template.Add("Attack", "Close Blast");
-                    break;
-                case AttackType.Area_Wall:
-                    power_template.Add("Attack", "Area Wall");
-                    break;
-                case AttackType.Area_Blast:
-                    power_template.Add("Attack", "Area Blast");
-                    break;
-            }
-
-            power_template.Add("Range", p.Range);
-
-            foreach (string s in p.Keywords)
-            {
-                power_template.Add("Keywords", s);
-            }
-
-            foreach (Power.Element e in p.Elements)
-            {
-                power_template.Add("Type", e.Type);
-                power_template.Add("Text", e.Text);
-                switch (e.Spacing)
-                {
-                    case Power.Element.Indent.Primary:
-                        power_template.Add("Indent", "5");
-                        break;
-                    case Power.Element.Indent.Secondary:
-                        power_template.Add("Indent", "15");
-                        break;
-                    case Power.Element.Indent.Tertiary:
-                        power_template.Add("Indent", "25");
-                        break;
-                }
-                if (e.Shaded)
-                {
-                    power_template.Add("Shading", @"/Resources/Images/bg_350.jpg");
-                }
-                else power_template.Add("Shading", "");
-            }
-
-            HTML = power_template.ToString();
+            //etc.
         }
 
         public Card(Item i)
@@ -137,6 +42,45 @@ namespace CardMakerWPF
         public override string ToString()
         {
             return HTML;
+        }
+
+        public static Power GetDemo()
+        {
+            Power power = new Power();
+            power.Action = ActionType.Standard;
+            power.Attack = AttackType.Ranged;
+            power.FlavourText = "A brilliant ray of light sears your foe with golden radiance. Sparkles of light linger around your target, guiding your ally's attack.";
+            power.Keywords.Add("Divine");
+            power.Keywords.Add("Implement");
+            power.Keywords.Add("Radiant");
+            power.Level = "Cleric Attack 1";
+            power.Name = "Lance of Faith";
+            power.Range = "5";
+            Power.Element el1 = new Power.Element();
+            Power.Element el2 = new Power.Element();
+            Power.Element el3 = new Power.Element();
+            Power.Element el4 = new Power.Element();
+            el1.Spacing = Power.Element.Indent.Primary;
+            el1.Shaded = false;
+            el1.Type = "Target";
+            el1.Text = "One Creature";
+
+            el1.Spacing = Power.Element.Indent.Primary;
+            el1.Shaded = false;
+            el2.Type = "Attack";
+            el2.Text = "Wisdom vs. Reflex";
+
+            el1.Spacing = Power.Element.Indent.Secondary;
+            el1.Shaded = true;
+            el3.Type = "Hit";
+            el3.Text = "1d8 + Wisdom modifier radiant damage, and one ally you can see gains a +2 bonus to his or her next attack roll against the target.";
+
+            el1.Spacing = Power.Element.Indent.Primary;
+            el1.Shaded = false;
+            el4.Type = "";
+            el4.Text = "Increase damage to 2d8 + Wisdom Modifier at 21st level.";
+
+            return power;
         }
     }
 }

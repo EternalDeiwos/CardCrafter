@@ -30,12 +30,124 @@ namespace CardMakerBackend.CardTypes
                 Primary=0, Secondary, Tertiary
             }
 
+            public class ElementModel
+            {
+                public string Indent { get; set; }
+                public string Shading { get; set; }
+                public string Type { get; set; }
+                public string Text { get; set; }
+
+                public ElementModel(Element e)
+                {
+                    switch (e.Spacing)
+                    {
+                        case Element.Indent.Primary:
+                            Indent = "5";
+                            break;
+                        case Element.Indent.Secondary:
+                            Indent = "15";
+                            break;
+                        case Element.Indent.Tertiary:
+                            Indent = "25";
+                            break;
+                        default: break;
+                    }
+
+                    if (!e.Shaded) Shading = "";
+                    else Shading = "/Resources/Images/bg_350.jpg";
+
+                    Type = e.Type;
+                    Text = e.Text;
+                }
+            }
+
             public string Text { get; set; }
             public string Type { get; set; }
             public bool Shaded { get; set; }
             public Indent Spacing { get; set; }
+
+            public ElementModel GetModel()
+            {
+                return new ElementModel(this);
+            }
+        }
+
+        public class PowerModel
+        {
+            public string Name { get; set; }
+            public string Level { get; set; }
+            public string FlavourText { get; set; }
+            public string Usage { get; set; }
+            public string Colour { get; set; }
+            public string Keywords { get; set; }
+            public string Action { get; set; }
+            public string Attack { get; set; }
+            public string Range { get; set; }
+
+            public PowerModel(Power p)
+            {
+                Name = p.Name;
+                Level = p.Level;
+                FlavourText = p.FlavourText;
+
+                switch (p.Usage)
+                {
+                    case SpellUsage.AtWill:
+                        Colour = "#407040";
+                        Usage = "At Will";
+                        break;
+                    case SpellUsage.Encounter:
+                        Colour = "#704040";
+                        Usage = "Encounter";
+                        break;
+                    case SpellUsage.Daily:
+                        Colour = "#404040";
+                        Usage = "At Will";
+                        break;
+                }
+
+                StringBuilder builder = new StringBuilder();
+                foreach (string s in p.Keywords)
+                {
+                    builder.Append(s).Append(", ");
+                }
+                Keywords = builder.ToString().Substring(0, builder.Length - 2);
+
+                switch (p.Action)
+                {
+                    case ActionType.Free:
+                        Action = "Free Action";
+                        break;
+                    case ActionType.Interrupt:
+                        Action = "Immediate Interrupt";
+                        break;
+                    case ActionType.Minor:
+                        Action = "Minor Action";
+                        break;
+                    case ActionType.Move:
+                        Action = "Movement Action";
+                        break;
+                    case ActionType.None:
+                        Action = "No Action";
+                        break;
+                    case ActionType.Reaction:
+                        Action = "Immediate Reaction";
+                        break;
+                    case ActionType.Standard:
+                        Action = "Standard Action";
+                        break;
+                    default: break;
+                }
+                Range = p.Range;
+            }
         }
         #endregion
+
+        public Power()
+        {
+            Keywords = new List<string>();
+            Elements = new List<Element>();
+        }
 
         public string Name { get; set; }
         public string Level { get; set; }
@@ -47,43 +159,9 @@ namespace CardMakerBackend.CardTypes
         public string Range { get; set; }
         public List<Element> Elements;
 
-        public static Power GetDemo()
+        public PowerModel GetModel()
         {
-            Power power = new Power();
-            power.Action = ActionType.Standard;
-            power.Attack = AttackType.Ranged;
-            power.FlavourText = "A brilliant ray of light sears your foe with golden radiance. Sparkles of light linger around your target, guiding your ally's attack.";
-            power.Keywords.Add("Divine");
-            power.Keywords.Add("Implement");
-            power.Keywords.Add("Radiant");
-            power.Level = "Cleric Attack 1";
-            power.Name = "Lance of Faith";
-            power.Range = "5";
-            Element el1 = new Power.Element();
-            Element el2 = new Power.Element();
-            Element el3 = new Power.Element();
-            Element el4 = new Power.Element();
-            el1.Spacing = Power.Element.Indent.Primary;
-            el1.Shaded = false;
-            el1.Type = "Target";
-            el1.Text = "One Creature";
-
-            el1.Spacing = Power.Element.Indent.Primary;
-            el1.Shaded = false;
-            el2.Type = "Attack";
-            el2.Text = "Wisdom vs. Reflex";
-
-            el1.Spacing = Power.Element.Indent.Secondary;
-            el1.Shaded = true;
-            el3.Type = "Hit";
-            el3.Text = "1d8 + Wisdom modifier radiant damage, and one ally you can see gains a +2 bonus to his or her next attack roll against the target.";
-
-            el1.Spacing = Power.Element.Indent.Primary;
-            el1.Shaded = false;
-            el4.Type = "";
-            el4.Text = "Increase damage to 2d8 + Wisdom Modifier at 21st level.";
-
-            return power;
+            return new PowerModel(this);
         }
     }
 }

@@ -23,8 +23,8 @@ namespace CardMakerWPF
         public MainWindow()
         {
             InitializeComponent();
-            Card c = new Card(Power.GetDemo());
-            //tempTextBox.Text = c.ToString();
+            Card c = new Card(Card.GetDemo());
+            tempTextBox.Text = c.ToString();
         }
     }
 }

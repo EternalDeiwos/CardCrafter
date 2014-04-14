@@ -59,6 +59,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Templating\StringTemplate.cs" />
     <Page Include="BrowserWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -108,12 +109,18 @@
     <AppDesigner Include="Properties\" />
     <Resource Include="Resources\CardTemplates\ElementTemplate.st">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\CardTemplates\OneBarCardTemplate.st" />
+    <Resource Include="Resources\CardTemplates\OneBarCardTemplate.st">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Resources\CardTemplates\PowerTemplate.st">
       <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-    <Resource Include="Resources\CardTemplates\TwoBarCardTemplate.st" />
+    <Resource Include="Resources\CardTemplates\TwoBarCardTemplate.st">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CardMakerBackendLibrary\CardMakerBackendLibrary.csproj">
@@ -148,6 +155,7 @@
   <ItemGroup>
     <Resource Include="Resources\Images\ranged-basic.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
